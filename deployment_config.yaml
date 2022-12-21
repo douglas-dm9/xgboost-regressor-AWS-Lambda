@@ -1,0 +1,9 @@
+api_version: v1
+name: xgboost_regressor
+operator:
+  name: aws-lambda
+template: terraform
+spec:
+  region: sa-east-1
+  timeout: 10
+  memory_size: 512
